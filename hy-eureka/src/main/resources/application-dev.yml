@@ -1,0 +1,23 @@
+#注册中心配置
+server:
+  port: 8010
+
+eureka:
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
+    prefer-ip-address: true
+    ip-address: 192.168.0.103
+    hostname: 192.168.0.103
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.ip-address}:${server.port}/eureka/
+  server:
+    enable-self-preservation: true
+    eviction-interval-timer-in-ms: 60000
+spring:
+  application:
+    name: hy-eureka
+##############################

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hy-eureka:war">
+    <output-path>$PROJECT_DIR$/hy-eureka/target</output-path>
+    <root id="archive" name="hy-eureka.war">
+      <element id="artifact" artifact-name="hy-eureka:war exploded" />
+    </root>
+  </artifact>
+</component>

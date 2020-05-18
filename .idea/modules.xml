@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hy-eureka/hy-eureka.iml" filepath="$PROJECT_DIR$/hy-eureka/hy-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hy-tools/hy-tools.iml" filepath="$PROJECT_DIR$/hy-tools/hy-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hy-utils.iml" filepath="$PROJECT_DIR$/hy-utils.iml" />
+    </modules>
+  </component>
+</project>
