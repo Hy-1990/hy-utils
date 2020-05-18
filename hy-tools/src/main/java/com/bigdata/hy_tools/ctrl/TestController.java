@@ -54,6 +54,7 @@ public class TestController {
     @ResponseBody
     public ResponseEntity test1(Integer num) {
         testService.test(num);
+        System.out.println("haha");
         return new ResponseEntity<>(new HYResult(tt).success(), HttpStatus.OK);
     }
 }
