@@ -21,8 +21,13 @@ public class ParseUtils {
 
     public static void main(String[] args) {
 //      String result = ParseUtils.getResult("[1.3.6.1.2.1.2.1.0 = asd]", ".*=\\s*(.*)]");
-        String result = ParseUtils.getResult("123123123撒打算打算去闻气味asdas123123asd", "[\\d+]");
-        System.out.println(result);
+        try {
+            System.out.println("hah");
+            String result = ParseUtils.getResult("123123123撒打算打算去闻气味asdas123123asd", "*");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+//        System.out.println(result);
     }
 
 }
