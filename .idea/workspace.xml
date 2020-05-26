@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62fc52ab-5a0a-444d-b930-42cb2fa218f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/StuLRU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/hy_tools_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hy_tools_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/ctrl/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/ctrl/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/utils/ParseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/utils/ParseUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="62fc52ab-5a0a-444d-b930-42cb2fa218f9" name="Default" comment="更新一些工具" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -265,6 +258,7 @@
       <workItem from="1590467147633" duration="179000" />
       <workItem from="1590467336304" duration="70000" />
       <workItem from="1590470900028" duration="208000" />
+      <workItem from="1590471170076" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1589798637430</created>
@@ -280,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589869223440</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新一些工具">
+      <created>1590471274516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590471274516</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -307,7 +308,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="更新一些工具" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新一些工具" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="572" y="85" key="CommitChangelistDialog2" timestamp="1590471545748">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state x="572" y="85" key="CommitChangelistDialog2/0.23.1920.985/1920.23.1920.1057@0.23.1920.985" timestamp="1590471545748" />
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590471284380">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.985/1920.23.1920.1057@0.23.1920.985" timestamp="1590471284380" />
   </component>
   <component name="masterDetails">
     <states>
