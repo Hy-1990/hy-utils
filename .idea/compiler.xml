@@ -16,4 +16,10 @@
       <module name="hy-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hy-eureka" options="-parameters" />
+      <module name="hy-tools" options="-parameters" />
+    </option>
+  </component>
 </project>

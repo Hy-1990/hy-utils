@@ -5,8 +5,10 @@ package com.bigdata.hy_tools.ctrl;
  * @date 2020/4/29 4:26 PM
  */
 
+import com.bigdata.hy_tools.annotation.TestAnnotation;
 import com.bigdata.hy_tools.dto.HYResult;
 import com.bigdata.hy_tools.service.TestService;
+import com.bigdata.hy_tools.utils.TestUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
@@ -30,6 +32,9 @@ public class TestController {
 
     private long count_text = 0l;
 
+    @Resource(name = "testUtil")
+    private TestUtil testUtil;
+
     @Autowired
     TestService testService;
 
@@ -40,9 +45,11 @@ public class TestController {
     })
     @RequestMapping(value = "/test", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     @ResponseBody
-    public ResponseEntity test() {
-
-
+    @TestAnnotation(detail = "hahaha")
+    public ResponseEntity test(Integer num, String value) {
+        testUtil.setValue(num, value);
+        testUtil.getPrint();
+        testUtil.init();
         return new ResponseEntity<>(new HYResult(tt).success(), HttpStatus.OK);
     }
 

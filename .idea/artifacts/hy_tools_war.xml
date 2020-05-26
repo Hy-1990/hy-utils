@@ -1,6 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="war" name="hy-tools:war">
     <output-path>$PROJECT_DIR$/hy-tools/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hy-tools</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="archive" name="hy-tools.war">
       <element id="artifact" artifact-name="hy-tools:war exploded" />
     </root>
