@@ -8,6 +8,7 @@ package com.bigdata.hy_tools.ctrl;
 import com.bigdata.hy_tools.annotation.TestAnnotation;
 import com.bigdata.hy_tools.dto.HYResult;
 import com.bigdata.hy_tools.service.TestService;
+import com.bigdata.hy_tools.utils.DownloadExcelUtil;
 import com.bigdata.hy_tools.utils.TestUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParams;
@@ -19,6 +20,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -63,6 +69,21 @@ public class TestController {
         testService.test(num);
         System.out.println("haha");
         return new ResponseEntity<>(new HYResult(tt).success(), HttpStatus.OK);
+    }
+
+    @ApiOperation(value = "测试接口3", httpMethod = "GET")
+    @ApiResponse(code = 200, message = "success", response = ResponseEntity.class)
+    @ApiImplicitParams({
+    })
+    @RequestMapping(value = "/test2", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    @ResponseBody
+    public ResponseEntity test2(HttpServletResponse httpServletResponse) throws Exception {
+        String fileName = "test.xlsx";
+        httpServletResponse.setContentType("application/octet-stream;charset=UTF-8");
+        httpServletResponse.setHeader("Content-Discription", "attachment;fileName" + fileName);
+        OutputStream outputStream = httpServletResponse.getOutputStream();
+        DownloadExcelUtil.exportExcel(outputStream);
+        return new ResponseEntity<>(new HYResult("OK").success(), HttpStatus.OK);
     }
 }
 

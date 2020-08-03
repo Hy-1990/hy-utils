@@ -1,9 +1,12 @@
 package com.bigdata.hy_tools.stu;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
 
 /**
  * @author huyi
@@ -70,6 +73,12 @@ public class StuList {
         results = stuLists.stream().sorted(Comparator.comparing(StuList::getAge)
                 .reversed().thenComparing(StuList::getName)).collect(Collectors.toList());
         results.forEach((x) -> System.out.println(x.toString()));
+
+        //排序数组
+        int[] ints = {1, 2, 7, 3, 9, 0, 4, 5};
+        ints = Arrays.stream(ints).sorted().toArray();
+        IntStream.of(ints).boxed().collect(Collectors.toList()).forEach(System.out::println);
+//        DoubleStream.of(new double[]{0.1, 0.2, 0.3}).toArray();
 
     }
 }
