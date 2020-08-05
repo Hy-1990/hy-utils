@@ -74,15 +74,6 @@
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.7" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.7" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.9" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-analyzers-common:5.3.1" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:6.2.0" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:6.2.0" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-sandbox:6.2.0" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:6.2.0" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-backward-codecs:6.2.0" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-highlighter:6.2.0" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-join:6.2.0" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-memory:6.2.0" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-config-server:2.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-config-client:2.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-context:2.2.2.RELEASE" />
