@@ -1,0 +1,54 @@
+server:
+  port: 8030
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8010/eureka/
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
+spring:
+  application:
+    name: hy-gateway
+  redis:
+    host: 192.168.3.128
+    password:
+    port: 6379
+    timeout: 5000ms
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: hy-tools
+          uri: lb://func-service
+          predicates:
+          - Path=/hy/**
+            ## 匹配 GET 请求
+          - Method=GET
+          filters:
+          ## 截取路径位数
+          - StripPrefix=1
+          ## 添加指定参数
+          - AddRequestParameter=pass, yes
+          ## 熔断
+          - name: Hystrix
+            args:
+              name: fallbackcmd
+              ### fallback 时调用的方法 http://localhost:8000/fallback
+              fallbackUri: forward:/fallback
+          ## 限流
+          - name: RequestRateLimiter
+            args:
+              ### 限流过滤器的 Bean 名称
+              key-resolver: '#{@hostAddrKeyResolver}'
+              ### 希望允许用户每秒处理多少个请求
+              redis-rate-limiter.replenishRate: 1
+              ### 用户允许在一秒钟内完成的最大请求数
+              redis-rate-limiter.burstCapacity: 3
