@@ -19,12 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62fc52ab-5a0a-444d-b930-42cb2fa218f9" name="Default" comment="更新一些工具类，几个库的使用">
+    <list default="true" id="62fc52ab-5a0a-444d-b930-42cb2fa218f9" name="Default" comment="去掉一些依赖">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/hy_tools_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/hy_tools_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-eureka/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-eureka/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/ctrl/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/ctrl/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/StuList.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/StuList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +45,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,27 +91,28 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guiyu_ka_huyi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hy-gateway/src/main/java/com/bigdata/hygateway/fallback" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.idea" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\huyi\IdeaProjects\hy-utils\hy-gateway\src\main\java\com\bigdata\hygateway\fallback" />
+      <recent name="$PROJECT_DIR$/hy-tools/src/main/resources" />
+      <recent name="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/config" />
+      <recent name="$PROJECT_DIR$/hy-eureka/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bigdata.hy_tools.utils" />
       <recent name="com.bigdata.hy_tools.dto" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/hy-tools/src/main/resources" />
-      <recent name="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/config" />
-      <recent name="$PROJECT_DIR$/hy-eureka/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HyToolsApplication">
+  <component name="RunManager" selected="Application.StuParallelStream">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -107,22 +120,8 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="StuList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hy_tools.stu.StuList" />
-      <module name="hy-tools" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bigdata.hy_tools.stu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StuReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hy_tools.stu.StuReflect" />
+    <configuration name="StuParallelStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.hy_tools.stu.StuParallelStream" />
       <module name="hy-tools" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -197,6 +196,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HyGatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigdata.hygateway.HyGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HyGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huyi.hygateway.HyGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HyToolsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hy-tools" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigdata.hy_tools.HyToolsApplication" />
@@ -229,23 +242,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="hy/hy-eureka:latest" />
+          <option name="command" value="" />
+          <option name="containerName" value="hy-eureka" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="-p 8010:8010" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.StuList" />
-      <item itemvalue="Application.StuReflect" />
       <item itemvalue="Application.StuStream" />
       <item itemvalue="Application.StuTimer" />
       <item itemvalue="Application.StuThread" />
       <item itemvalue="Spring Boot.HyUtilsApplication" />
       <item itemvalue="Spring Boot.HyEurekaApplication" />
       <item itemvalue="Spring Boot.HyToolsApplication" />
+      <item itemvalue="Spring Boot.HyGatewayApplication" />
+      <item itemvalue="Spring Boot.HyGatewayApplication (1)" />
+      <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Application.StuParallelStream" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StuParallelStream" />
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.StuStream" />
         <item itemvalue="Application.StuThread" />
         <item itemvalue="Application.StuTimer" />
-        <item itemvalue="Application.StuList" />
-        <item itemvalue="Application.StuReflect" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +310,12 @@
       <workItem from="1596426294908" duration="4542000" />
       <workItem from="1596506095793" duration="2838000" />
       <workItem from="1596596617627" duration="111000" />
-      <workItem from="1596596751720" duration="1993000" />
+      <workItem from="1596596751720" duration="2686000" />
+      <workItem from="1596600668559" duration="684000" />
+      <workItem from="1596601737216" duration="1234000" />
+      <workItem from="1596603219741" duration="150000" />
+      <workItem from="1596603398385" duration="1793000" />
+      <workItem from="1596615731632" duration="29503000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1589798637430</created>
@@ -313,17 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1596417366638</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="去掉一些依赖">
+      <created>1596598853113</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596598853113</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -354,9 +384,18 @@
     <MESSAGE value="test" />
     <MESSAGE value="更新一些工具" />
     <MESSAGE value="更新一些工具类，几个库的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新一些工具类，几个库的使用" />
+    <MESSAGE value="去掉一些依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="去掉一些依赖" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="656" y="139" key="#Docker_Image" timestamp="1596705989751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="139" key="#Docker_Image/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596705989751" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1596677637435">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596677637435" />
     <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1596417252768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -365,35 +404,79 @@
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="572" y="85" key="CommitChangelistDialog2/0.23.1920.985/1920.23.1920.1057@0.23.1920.985" timestamp="1590471545748" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596506212888">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596615744157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596506212888" />
-    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1596506100442">
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596615744157" />
+    <state x="502" y="178" key="GrepConsoleSettings" timestamp="1596628632869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="263" key="IDE.errors.dialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596506100442" />
+    <state x="502" y="178" key="GrepConsoleSettings/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596628632869" />
+    <state width="1877" height="603" key="GridCell.Tab.0.bottom" timestamp="1596709842234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="603" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596709842234" />
+    <state width="1877" height="603" key="GridCell.Tab.0.center" timestamp="1596709842234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="603" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596709842234" />
+    <state width="1877" height="603" key="GridCell.Tab.0.left" timestamp="1596709842234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="603" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596709842234" />
+    <state width="1877" height="603" key="GridCell.Tab.0.right" timestamp="1596709842234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="603" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596709842234" />
+    <state width="1877" height="562" key="GridCell.Tab.1.bottom" timestamp="1596704544573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="562" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596704544573" />
+    <state width="1877" height="562" key="GridCell.Tab.1.center" timestamp="1596704544573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="562" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596704544573" />
+    <state width="1877" height="562" key="GridCell.Tab.1.left" timestamp="1596704544573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="562" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596704544573" />
+    <state width="1877" height="562" key="GridCell.Tab.1.right" timestamp="1596704544573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="562" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596704544573" />
+    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1596631722932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="263" key="IDE.errors.dialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596631722932" />
     <state x="718" y="240" key="RollbackChangesDialog" timestamp="1596417278909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="240" key="RollbackChangesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596417278909" />
-    <state x="560" y="242" key="Vcs.Push.Dialog.v2" timestamp="1596417417491">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1596704485352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596704485352" />
+    <state x="560" y="242" key="Vcs.Push.Dialog.v2" timestamp="1596598866526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.985/1920.23.1920.1057@0.23.1920.985" timestamp="1590471284380" />
-    <state x="560" y="242" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596417417491" />
+    <state x="560" y="242" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596598866526" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596432367206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596432367206" />
-    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1596422953973">
+    <state x="662" y="223" width="662" height="594" key="find.popup" timestamp="1596680625149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="223" width="596" height="594" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596422953973" />
-    <state x="334" y="180" key="new project wizard" timestamp="1596506277904">
+    <state x="662" y="223" width="662" height="594" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596680625149" />
+    <state x="334" y="180" key="new project wizard" timestamp="1596689644631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596506277904" />
+    <state x="334" y="180" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596689644631" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1596632346690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596632346690" />
   </component>
   <component name="masterDetails">
     <states>

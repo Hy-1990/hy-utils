@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hy-eureka/hy-eureka.iml" filepath="$PROJECT_DIR$/hy-eureka/hy-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hy-gateway/hy-gateway.iml" filepath="$PROJECT_DIR$/hy-gateway/hy-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-tools/hy-tools.iml" filepath="$PROJECT_DIR$/hy-tools/hy-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/hy-utils.iml" filepath="$PROJECT_DIR$/hy-utils.iml" />
     </modules>

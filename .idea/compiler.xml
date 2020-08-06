@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hy-eureka" />
+        <module name="hy-gateway" />
         <module name="hy-tools" />
+        <module name="hy-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hy-eureka" target="8" />
+      <module name="hy-gateway" target="8" />
       <module name="hy-tools" target="8" />
       <module name="hy-utils" target="8" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hy-eureka" options="-parameters" />
+      <module name="hy-gateway" options="-parameters" />
       <module name="hy-tools" options="-parameters" />
     </option>
   </component>

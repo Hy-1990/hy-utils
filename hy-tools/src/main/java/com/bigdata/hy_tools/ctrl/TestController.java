@@ -31,6 +31,7 @@ import java.util.List;
 @Api(value = "测试接口", tags = "测试")
 @RestController
 @CrossOrigin
+@RequestMapping(value = "/api")
 public class TestController {
 
     @Resource(name = "TT")
@@ -49,14 +50,11 @@ public class TestController {
     @ApiResponse(code = 200, message = "success", response = ResponseEntity.class)
     @ApiImplicitParams({
     })
-    @RequestMapping(value = "/test", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
+    @RequestMapping(value = "/test/{num}", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     @ResponseBody
     @TestAnnotation(detail = "hahaha")
-    public ResponseEntity test(Integer num, String value) {
-        testUtil.setValue(num, value);
-        testUtil.getPrint();
-        testUtil.init();
-        return new ResponseEntity<>(new HYResult(tt).success(), HttpStatus.OK);
+    public ResponseEntity test(@PathVariable("num") Integer num) {
+        return new ResponseEntity<>(new HYResult(num).success(), HttpStatus.OK);
     }
 
     @ApiOperation(value = "测试接口2", httpMethod = "GET")
