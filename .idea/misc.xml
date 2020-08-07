@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/hy-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/hy-tools/pom.xml" />
         <option value="$PROJECT_DIR$/hy-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-config/pom.xml" />
+        <option value="$PROJECT_DIR$/hy-zipkin/pom.xml" />
       </list>
     </option>
   </component>
