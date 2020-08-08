@@ -30,6 +30,7 @@ import java.io.OutputStream;
 @RestController
 @CrossOrigin
 @RequestMapping(value = "/api")
+@RefreshScope
 public class TestController {
 
   @Resource(name = "TT")

@@ -10,15 +10,20 @@ eureka:
     ip-address: 127.0.0.1
 server:
   port: 8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
 
 spring:
   application:
     name: config-service
   profiles:
     active: native
-#  cloud:
-#    config:
-#      server:
-#        native:
-#          search-locations: classpath:/
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/
 
