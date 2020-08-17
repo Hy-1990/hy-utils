@@ -16,7 +16,7 @@ spring:
   application:
     name: hy-gateway
   redis:
-    host: 192.168.3.128
+    host: 192.168.6.205
     password:
     port: 6379
     timeout: 5000ms
@@ -29,26 +29,17 @@ spring:
         - id: hy-tools
           uri: lb://func-service
           predicates:
-          - Path=/hy/**
-            ## 匹配 GET 请求
-          - Method=GET
+            - Path=/hy/**
+            - Method=GET
           filters:
-          ## 截取路径位数
-          - StripPrefix=1
-          ## 添加指定参数
-          - AddRequestParameter=pass, yes
-          ## 熔断
-          - name: Hystrix
-            args:
-              name: fallbackcmd
-              ### fallback 时调用的方法 http://localhost:8000/fallback
-              fallbackUri: forward:/fallback
-          ## 限流
-          - name: RequestRateLimiter
-            args:
-              ### 限流过滤器的 Bean 名称
-              key-resolver: '#{@hostAddrKeyResolver}'
-              ### 希望允许用户每秒处理多少个请求
-              redis-rate-limiter.replenishRate: 1
-              ### 用户允许在一秒钟内完成的最大请求数
-              redis-rate-limiter.burstCapacity: 3
+            - StripPrefix=1
+            - AddRequestParameter=pass, yes
+            - name: Hystrix
+              args:
+                name: fallbackcmd
+                fallbackUri: forward:/fallback
+            - name: RequestRateLimiter
+              args:
+                key-resolver: '#{@hostAddrKeyResolver}'
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 3

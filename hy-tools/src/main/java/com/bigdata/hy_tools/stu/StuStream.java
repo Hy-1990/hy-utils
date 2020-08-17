@@ -1,5 +1,7 @@
 package com.bigdata.hy_tools.stu;
 
+import com.google.common.base.Splitter;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -21,5 +23,9 @@ public class StuStream {
         List<String> list1 = new ArrayList<>();
         list1 = list.stream().map(x -> x + " OK").collect(Collectors.toList());
         System.out.println(String.join(",", list1));
+
+        String a = "67|66|65";
+        List<Integer> list2 = Splitter.on("|").splitToList(a).stream().map(Integer::parseInt).collect(Collectors.toList());
+        System.out.println(list2);
     }
 }
