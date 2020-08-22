@@ -1,33 +1,62 @@
-#注册中心配置
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://192.168.0.103:8010/eureka/
-  instance:
-    lease-expiration-duration-in-seconds: 30
-    lease-renewal-interval-in-seconds: 10
-    prefer-ip-address: true
-    ip-address: 192.168.0.103
 server:
-  port: 9999
-
-ribbon:
-  ReadTimeout: 60000
-  ConnectTimeout: 60000
-
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 60000
-##############################
+  port: 8020
 spring:
   application:
     name: func-service
   jmx:
     default-domain: func-service
+  zipkin:
+    base-url: http://127.0.0.1:8080
+  sleuth:
+    sampler:
+      probability: 1.0
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-service
+      name: config
+      profile: test
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
+
+#注册中心配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8010/eureka/
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+
+task:
+  queue:
+    corePoolSize: 10
+    maxPoolSize: 30
+    queueCapacity: 8
+    keepAlive: 60
+
+
+#ribbon:
+#  ReadTimeout: 60000
+#  ConnectTimeout: 60000
+#
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 60000
+##############################
+
+
+
 #  datasource:
 #    name: mybatis_test
 #        #使用druid连接池
@@ -68,9 +97,9 @@ spring:
 #  mapper-locations: classpath:mappers/*.xml
 
 #线程池配置
-task:
-  queue:
-    corePoolSize: 10
-    maxPoolSize: 30
-    queueCapacity: 8
-    keepAlive: 60
+#task:
+#  queue:
+#    corePoolSize: 10
+#    maxPoolSize: 30
+#    queueCapacity: 8
+#    keepAlive: 60

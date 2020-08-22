@@ -7,8 +7,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 
 @EnableEurekaServer
-@EnableHystrixDashboard
-@SpringCloudApplication
+@SpringBootApplication
 public class HyEurekaApplication {
 
     public static void main(String[] args) {

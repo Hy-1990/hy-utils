@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="62fc52ab-5a0a-444d-b930-42cb2fa218f9" name="Default" comment="更新一些工具" />
+    <list default="true" id="62fc52ab-5a0a-444d-b930-42cb2fa218f9" name="Default" comment="更新zipkin config模块">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-config/src/main/resources/config-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-config/src/main/resources/config-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/ctrl/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/ctrl/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/im-control.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/im-control.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,19 +39,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="978" />
   </component>
   <component name="ProjectId" id="1c4lsrzCwKGhtXNOTymlBk038MS" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -52,19 +77,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hy-tools/src/main/resources" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -75,9 +103,11 @@
       <recent name="com.bigdata.hy_tools.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\huyi\IdeaProjects\hy-utils\hy-tools\src\main\resources" />
+      <recent name="C:\Users\huyi\IdeaProjects\hy-utils\hy-config\src\main\resources" />
+      <recent name="C:\Users\huyi\IdeaProjects\hy-utils\hy-gateway\src\main\java\com\bigdata\hygateway\fallback" />
       <recent name="$PROJECT_DIR$/hy-tools/src/main/resources" />
       <recent name="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/config" />
-      <recent name="$PROJECT_DIR$/hy-eureka/src/main/resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.HyToolsApplication">
@@ -88,22 +118,8 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="StuList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hy_tools.stu.StuList" />
-      <module name="hy-tools" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bigdata.hy_tools.stu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StuReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hy_tools.stu.StuReflect" />
+    <configuration name="StuParallelStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.hy_tools.stu.StuParallelStream" />
       <module name="hy-tools" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -171,9 +187,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HyConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigdata.hyconfig.HyConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HyEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hy-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigdata.hy_eureka.HyEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HyGatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigdata.hygateway.HyGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HyGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huyi.hygateway.HyGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,6 +225,20 @@
     <configuration name="HyUtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hy-utils" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigdata.hy_utils.HyUtilsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HyZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigdata.hyzipkin.HyZipkinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HyZpikunApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-zpikun" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigdata.hyzpikun.HyZpikunApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,23 +261,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="hy/hy-eureka:latest" />
+          <option name="command" value="" />
+          <option name="containerName" value="hy-eureka" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="-p 8010:8010" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.StuList" />
-      <item itemvalue="Application.StuReflect" />
       <item itemvalue="Application.StuStream" />
       <item itemvalue="Application.StuTimer" />
       <item itemvalue="Application.StuThread" />
+      <item itemvalue="Application.StuParallelStream" />
+      <item itemvalue="Docker.Docker Image" />
       <item itemvalue="Spring Boot.HyUtilsApplication" />
       <item itemvalue="Spring Boot.HyEurekaApplication" />
       <item itemvalue="Spring Boot.HyToolsApplication" />
+      <item itemvalue="Spring Boot.HyGatewayApplication" />
+      <item itemvalue="Spring Boot.HyGatewayApplication (1)" />
+      <item itemvalue="Spring Boot.HyConfigApplication" />
+      <item itemvalue="Spring Boot.HyZpikunApplication" />
+      <item itemvalue="Spring Boot.HyZipkinApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StuParallelStream" />
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.StuStream" />
         <item itemvalue="Application.StuThread" />
         <item itemvalue="Application.StuTimer" />
-        <item itemvalue="Application.StuList" />
-        <item itemvalue="Application.StuReflect" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +327,18 @@
       <workItem from="1590467336304" duration="70000" />
       <workItem from="1590470900028" duration="208000" />
       <workItem from="1590471170076" duration="289000" />
+      <workItem from="1596418847475" duration="1321000" />
+      <workItem from="1596422266206" duration="2144000" />
+      <workItem from="1596426294908" duration="4542000" />
+      <workItem from="1596506095793" duration="2838000" />
+      <workItem from="1596596617627" duration="111000" />
+      <workItem from="1596596751720" duration="2686000" />
+      <workItem from="1596600668559" duration="684000" />
+      <workItem from="1596601737216" duration="1234000" />
+      <workItem from="1596603219741" duration="150000" />
+      <workItem from="1596603398385" duration="1793000" />
+      <workItem from="1596615731632" duration="30579000" />
+      <workItem from="1596761485840" duration="27740000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1589798637430</created>
@@ -281,17 +361,64 @@
       <option name="project" value="LOCAL" />
       <updated>1590471274516</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新一些工具类，几个库的使用">
+      <created>1596417366638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596417366638</updated>
+    </task>
+    <task id="LOCAL-00005" summary="去掉一些依赖">
+      <created>1596598853113</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596598853113</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更新gateway 模块">
+      <created>1596712170161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596712170162</updated>
+    </task>
+    <task id="LOCAL-00007" summary="更新gateway 模块">
+      <created>1596712260490</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596712260490</updated>
+    </task>
+    <task id="LOCAL-00008" summary="更新gateway 模块">
+      <created>1596712268895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596712268895</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更新gateway 模块">
+      <created>1596712295669</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596712295669</updated>
+    </task>
+    <task id="LOCAL-00010" summary="更新gateway 模块">
+      <created>1596712462115</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596712462115</updated>
+    </task>
+    <task id="LOCAL-00011" summary="更新zipkin config模块">
+      <created>1596785601362</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596785601362</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -306,20 +433,142 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="更新一些工具" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新一些工具" />
+    <MESSAGE value="更新一些工具类，几个库的使用" />
+    <MESSAGE value="去掉一些依赖" />
+    <MESSAGE value="更新gateway 模块" />
+    <MESSAGE value="更新zipkin 模块" />
+    <MESSAGE value="更新zipkin config模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新zipkin config模块" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="656" y="139" key="#Docker_Image" timestamp="1596705989751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="139" key="#Docker_Image/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596705989751" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1596763801751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596763801751" />
+    <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1596417252768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596417252768" />
     <state x="572" y="85" key="CommitChangelistDialog2" timestamp="1590471545748">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="572" y="85" key="CommitChangelistDialog2/0.23.1920.985/1920.23.1920.1057@0.23.1920.985" timestamp="1590471545748" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590471284380">
-      <screen x="0" y="23" width="1920" height="985" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1596712864084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596712864084" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596615744157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596615744157" />
+    <state x="502" y="178" key="GrepConsoleSettings" timestamp="1596628632869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="502" y="178" key="GrepConsoleSettings/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596628632869" />
+    <state width="1877" height="604" key="GridCell.Tab.0.bottom" timestamp="1596871352783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="604" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
+    <state width="1877" height="604" key="GridCell.Tab.0.center" timestamp="1596871352783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="604" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
+    <state width="1877" height="604" key="GridCell.Tab.0.left" timestamp="1596871352783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="604" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
+    <state width="1877" height="604" key="GridCell.Tab.0.right" timestamp="1596871352783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="604" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
+    <state width="1877" height="604" key="GridCell.Tab.1.bottom" timestamp="1596871352783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="604" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
+    <state width="1877" height="604" key="GridCell.Tab.1.center" timestamp="1596871352783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="604" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
+    <state width="1877" height="604" key="GridCell.Tab.1.left" timestamp="1596871352783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="604" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
+    <state width="1877" height="604" key="GridCell.Tab.1.right" timestamp="1596871352783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="604" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
+    <state width="1877" height="556" key="GridCell.Tab.2.bottom" timestamp="1596774256787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="556" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596774256787" />
+    <state width="1877" height="556" key="GridCell.Tab.2.center" timestamp="1596774256787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="556" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596774256787" />
+    <state width="1877" height="556" key="GridCell.Tab.2.left" timestamp="1596774256787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="556" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596774256787" />
+    <state width="1877" height="556" key="GridCell.Tab.2.right" timestamp="1596774256787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="556" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596774256787" />
+    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1596764286814">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="263" key="IDE.errors.dialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596764286814" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1596780955666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596780955666" />
+    <state x="718" y="240" key="RollbackChangesDialog" timestamp="1596712439251">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="240" key="RollbackChangesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596712439251" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1596786198843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596786198843" />
+    <state x="560" y="242" key="Vcs.Push.Dialog.v2" timestamp="1596785615381">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.985/1920.23.1920.1057@0.23.1920.985" timestamp="1590471284380" />
+    <state x="560" y="242" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596785615381" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596785437636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596785437636" />
+    <state x="662" y="223" width="662" height="594" key="find.popup" timestamp="1596680625149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="223" width="662" height="594" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596680625149" />
+    <state x="334" y="180" key="new project wizard" timestamp="1596780529539">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596780529539" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1596632346690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596632346690" />
   </component>
   <component name="masterDetails">
     <states>
