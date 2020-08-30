@@ -59,5 +59,6 @@ public class StuStream {
     Optional<Integer> first = list3.stream().findFirst();
     System.out.println(first.get());
     System.out.println(list3.stream().allMatch(x -> x > 20));
+
   }
 }
