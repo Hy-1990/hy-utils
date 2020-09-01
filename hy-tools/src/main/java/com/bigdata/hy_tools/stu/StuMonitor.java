@@ -2,6 +2,8 @@ package com.bigdata.hy_tools.stu;
 
 import com.google.common.util.concurrent.Monitor;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @Program: hy-utils @ClassName: StuMonitor @Author: huyi @Date: 2020-08-24
  * 01:27 @Description: @Version: V1.0
@@ -20,13 +22,23 @@ public class StuMonitor {
 
   public static void main(String[] args) throws InterruptedException {
     while (true) {
-      monitor.enterWhen(INC_WHEN_LESS_10);
+      boolean ready = monitor.enterWhen(INC_WHEN_LESS_10, 10, TimeUnit.SECONDS);
       try {
         x++;
         System.out.println(Thread.currentThread() + "x = " + x);
       } finally {
-        monitor.leave();
+        if (!ready) {
+          System.out.println("oooo");
+          break;
+        } else {
+          monitor.leave();
+        }
       }
+
+      System.out.println("hahaha");
+      //      if(x == 10){
+      //          x = 0;
+      //      }
     }
   }
 }

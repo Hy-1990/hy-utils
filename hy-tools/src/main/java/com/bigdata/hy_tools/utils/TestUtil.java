@@ -3,6 +3,11 @@ package com.bigdata.hy_tools.utils;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
+import java.sql.Timestamp;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -72,17 +77,19 @@ public class TestUtil {
         return result;
     }
 
-    public static void main(String[] args) throws InterruptedException {
-        LinkedBlockingDeque<String> linkedBlockingDeque = new LinkedBlockingDeque<>();
-        linkedBlockingDeque.put("a");
-        linkedBlockingDeque.put("b");
-        linkedBlockingDeque.put("c");
-        linkedBlockingDeque.put("d");
-        linkedBlockingDeque.put("e");
-
-
-
-        System.out.println(linkedBlockingDeque.peekFirst());
-        linkedBlockingDeque.forEach(System.out::println);
+    public static void main(String[] args) throws InterruptedException, ParseException {
+//        LinkedBlockingDeque<String> linkedBlockingDeque = new LinkedBlockingDeque<>();
+//        linkedBlockingDeque.put("a");
+//        linkedBlockingDeque.put("b");
+//        linkedBlockingDeque.put("c");
+//        linkedBlockingDeque.put("d");
+//        linkedBlockingDeque.put("e");
+//
+//
+//
+//        System.out.println(linkedBlockingDeque.peekFirst());
+//        linkedBlockingDeque.forEach(System.out::println);
+        String s = "2008-06-13 09:25:12";
+        System.out.println(LocalDateTime.parse(s,DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
     }
 }
