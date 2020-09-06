@@ -25,7 +25,7 @@ public class StuGuava {
         Set set = new HashSet(list1);
         set.forEach(System.out::println);
         System.out.println(Joiner.on("|+|").join(set.iterator()));
-
+        //同值获取 值队列
         HashMultimap<String, Integer> multimap = HashMultimap.create();
         multimap.put("a", 1);
         multimap.put("b", 2);
@@ -40,12 +40,12 @@ public class StuGuava {
         multiset1.add("d",5);
         System.out.println(multiset1);
         multiset1.forEach(System.out::println);
-
+        //反转
         BiMap<String,String> biMap = HashBiMap.create();
         biMap.put("a","100");
         System.out.println(biMap.get("a"));
         System.out.println(biMap.inverse().get("100"));
-
+        //两个元素标志一个元素  table
         Table<String,String,String> table = HashBasedTable.create();
         table.put("a","b","1");
         table.put("a","c","2");
