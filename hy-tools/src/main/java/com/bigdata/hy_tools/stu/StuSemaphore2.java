@@ -26,6 +26,7 @@ public class StuSemaphore2 {
                 e.printStackTrace();
               } finally {
                 SEMAPHORE.release();
+                System.out.println(Thread.currentThread().getName() + "解除获得");
               }
             },
             "T1");

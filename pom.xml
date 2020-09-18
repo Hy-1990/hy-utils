@@ -21,6 +21,7 @@
         <module>hy-gateway</module>
         <module>hy-config</module>
         <module>hy-zipkin</module>
+        <module>hy-test</module>
     </modules>
 
     <properties>

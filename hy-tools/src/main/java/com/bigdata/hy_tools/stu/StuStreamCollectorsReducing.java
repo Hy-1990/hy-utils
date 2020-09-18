@@ -25,6 +25,8 @@ public class StuStreamCollectorsReducing {
     Optional<Data> data =
         list.stream()
             .collect(Collectors.reducing((d1, d2) -> d1.getMoney() > d2.getMoney() ? d1 : d2));
+    Integer dataSize = list.stream().mapToInt(x -> x.getMoney()).sum();
+    System.out.println(dataSize);
     System.out.println(data.get().toString());
 
     long sum = Stream.iterate(0L, l -> l + 1L).limit(10_000_000).parallel().reduce(0L, Long::sum);
