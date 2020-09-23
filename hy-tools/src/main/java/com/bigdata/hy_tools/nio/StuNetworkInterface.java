@@ -1,5 +1,6 @@
 package com.bigdata.hy_tools.nio;
 
+import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
@@ -20,6 +21,19 @@ public class StuNetworkInterface {
         System.out.println("isUp是否已经开启并运行=" + networkInterface.isUp());
         System.out.println("isLoopback是否为回调接口=" + networkInterface.isLoopback());
         System.out.println("getMTU获得最大传输单元=" + networkInterface.getMTU());
+        Enumeration<InetAddress> enumerations = networkInterface.getInetAddresses();
+        while (enumerations.hasMoreElements()) {
+          InetAddress inetAddress = enumerations.nextElement();
+          System.out.println("获取此IP地址的完全限定域名=" + inetAddress.getCanonicalHostName());
+          System.out.println("获取此IP地址的主机名=" + inetAddress.getHostName());
+          System.out.println("获取此IP地址的字符串=" + inetAddress.getHostAddress());
+          System.out.print("getAddress返回此InetAddress对象的原始IP地址=");
+          byte[] addressByte = inetAddress.getAddress();
+          for (byte b : addressByte) {
+            System.out.print(b + " ");
+          }
+          System.out.println();
+        }
         System.out.println();
       }
     } catch (SocketException e) {
