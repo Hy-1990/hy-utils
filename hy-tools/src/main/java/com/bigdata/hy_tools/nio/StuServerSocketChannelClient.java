@@ -15,7 +15,7 @@ import java.net.Socket;
  */
 public class StuServerSocketChannelClient {
   public static void main(String[] args) throws IOException {
-      Socket socket = new Socket("localhost",8888);
+      Socket socket = new Socket("localhost",8889);
       OutputStream out = socket.getOutputStream();
       out.write("hahahaha".getBytes());
       socket.close();
