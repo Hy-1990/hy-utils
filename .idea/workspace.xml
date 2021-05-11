@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -16,31 +19,77 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62fc52ab-5a0a-444d-b930-42cb2fa218f9" name="Default" comment="更新zipkin config模块">
+    <list default="true" id="62fc52ab-5a0a-444d-b930-42cb2fa218f9" name="Default" comment="【学习】 retry springboot">
+      <change afterPath="$PROJECT_DIR$/doc/ansj分类" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/ansj/AnalyzerResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/ansj/AnsjTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/netty/DaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/netty/NettyClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/netty/NettyServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/netty/NioClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/netty/NioServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/CountDownLatchStu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/JavacvStu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/StuJMH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/utils/BeanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/utils/SnowFlakeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/utils/StrUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Data8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Test10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Test11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Test12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Test8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/Test9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/TestEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/TestForMe2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/TestForMe3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/TestForMe4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/ThreadPoolManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/TokenProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/WatchDogFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/WatchDogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-config/src/main/resources/config-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hy-config/src/main/resources/config-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hy-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/ctrl/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/ctrl/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/im-control.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/im-control.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/StuConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/StuConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/StuListenableFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/StuListenableFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/StuMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/stu/StuMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/TestForMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/tests/TestForMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hy-utils.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
         <option value="package-info" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +97,9 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1c4lsrzCwKGhtXNOTymlBk038MS" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -77,6 +129,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -85,32 +138,46 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hy-tools/src/main/resources" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="dynamic.classpath" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hy-tools/lib" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/hy-zipkin/src/main/resources/application.yml" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.idea" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.bigdata.hytest.service" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bigdata.hy_tools.utils" />
-      <recent name="com.bigdata.hy_tools.dto" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\huyi\IdeaProjects\hy-utils\hy-tools\lib" />
+      <recent name="C:\Users\huyi\IdeaProjects\hy-utils\lib" />
       <recent name="C:\Users\huyi\IdeaProjects\hy-utils\hy-tools\src\main\resources" />
       <recent name="C:\Users\huyi\IdeaProjects\hy-utils\hy-config\src\main\resources" />
       <recent name="C:\Users\huyi\IdeaProjects\hy-utils\hy-gateway\src\main\java\com\bigdata\hygateway\fallback" />
-      <recent name="$PROJECT_DIR$/hy-tools/src/main/resources" />
-      <recent name="$PROJECT_DIR$/hy-tools/src/main/java/com/bigdata/hy_tools/config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bigdata.tests" />
+      <recent name="com.bigdata.hy_tools.utils" />
+      <recent name="com.bigdata.hy_tools.bean" />
+      <recent name="com.bigdata.hy_tools.entity" />
+      <recent name="com.bigdata.hy_tools.ansj" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HyToolsApplication">
+  <component name="RunManager" selected="Application.TokenProcessor">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -118,13 +185,15 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="StuParallelStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hy_tools.stu.StuParallelStream" />
+    <configuration name="Test10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.tests.Test10" />
       <module name="hy-tools" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bigdata.hy_tools.stu.*" />
+          <option name="PATTERN" value="com.bigdata.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +201,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StuStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hy_tools.stu.StuStream" />
+    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.tests.Test11" />
       <module name="hy-tools" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bigdata.hy_tools.stu.*" />
+          <option name="PATTERN" value="com.bigdata.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,13 +217,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StuThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hy_tools.stu.StuThread" />
+    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.tests.Test12" />
       <module name="hy-tools" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bigdata.hy_tools.stu.*" />
+          <option name="PATTERN" value="com.bigdata.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,13 +233,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StuTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.hy_tools.stu.StuTimer" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.tests.Test5" />
       <module name="hy-tools" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bigdata.hy_tools.stu.*" />
+          <option name="PATTERN" value="com.bigdata.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.tests.TokenProcessor" />
+      <module name="hy-tools" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigdata.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,7 +266,9 @@
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <shortenClasspath name="MANIFEST" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,6 +304,13 @@
     <configuration name="HyGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hy-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huyi.hygateway.HyGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HyTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hy-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigdata.hytest.HyTestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,24 +361,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="hy/hy-eureka:latest" />
-          <option name="command" value="" />
-          <option name="containerName" value="hy-eureka" />
-          <option name="entrypoint" value="" />
-          <option name="commandLineOptions" value="-p 8010:8010" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Application.StuStream" />
-      <item itemvalue="Application.StuTimer" />
-      <item itemvalue="Application.StuThread" />
-      <item itemvalue="Application.StuParallelStream" />
-      <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Application.Test10" />
+      <item itemvalue="Application.Test11" />
+      <item itemvalue="Application.Test5" />
+      <item itemvalue="Application.Test12" />
       <item itemvalue="Spring Boot.HyUtilsApplication" />
       <item itemvalue="Spring Boot.HyEurekaApplication" />
       <item itemvalue="Spring Boot.HyToolsApplication" />
@@ -287,14 +374,16 @@
       <item itemvalue="Spring Boot.HyConfigApplication" />
       <item itemvalue="Spring Boot.HyZpikunApplication" />
       <item itemvalue="Spring Boot.HyZipkinApplication" />
+      <item itemvalue="Spring Boot.HyTestApplication" />
+      <item itemvalue="Application.TokenProcessor" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StuParallelStream" />
-        <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Application.StuStream" />
-        <item itemvalue="Application.StuThread" />
-        <item itemvalue="Application.StuTimer" />
+        <item itemvalue="Application.TokenProcessor" />
+        <item itemvalue="Application.Test12" />
+        <item itemvalue="Application.Test11" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.Test10" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +427,87 @@
       <workItem from="1596603219741" duration="150000" />
       <workItem from="1596603398385" duration="1793000" />
       <workItem from="1596615731632" duration="30579000" />
-      <workItem from="1596761485840" duration="27740000" />
+      <workItem from="1596761485840" duration="41962000" />
+      <workItem from="1597138621980" duration="28906000" />
+      <workItem from="1597802725538" duration="1935000" />
+      <workItem from="1597838367829" duration="6023000" />
+      <workItem from="1598003205968" duration="1189000" />
+      <workItem from="1598230590422" duration="1418000" />
+      <workItem from="1598262927959" duration="7736000" />
+      <workItem from="1598403120961" duration="935000" />
+      <workItem from="1598412658748" duration="999000" />
+      <workItem from="1598419880355" duration="22219000" />
+      <workItem from="1599047375271" duration="165000" />
+      <workItem from="1599047569313" duration="2404000" />
+      <workItem from="1599112404134" duration="5630000" />
+      <workItem from="1599183228333" duration="48000" />
+      <workItem from="1599183296513" duration="1312000" />
+      <workItem from="1599184867357" duration="6732000" />
+      <workItem from="1599441289753" duration="3667000" />
+      <workItem from="1599699956468" duration="25614000" />
+      <workItem from="1600692959200" duration="7494000" />
+      <workItem from="1600926122446" duration="6530000" />
+      <workItem from="1601277063919" duration="1792000" />
+      <workItem from="1601292436254" duration="2380000" />
+      <workItem from="1602570900287" duration="10717000" />
+      <workItem from="1603177267389" duration="9538000" />
+      <workItem from="1603760649027" duration="10895000" />
+      <workItem from="1603972060420" duration="20623000" />
+      <workItem from="1605246546376" duration="7702000" />
+      <workItem from="1606272411320" duration="4281000" />
+      <workItem from="1606960094009" duration="2376000" />
+      <workItem from="1607390100423" duration="8210000" />
+      <workItem from="1607398549664" duration="13945000" />
+      <workItem from="1607600109198" duration="1506000" />
+      <workItem from="1607917753528" duration="8462000" />
+      <workItem from="1608019118913" duration="738000" />
+      <workItem from="1608187863873" duration="1019000" />
+      <workItem from="1608215214430" duration="4823000" />
+      <workItem from="1608705170823" duration="1190000" />
+      <workItem from="1608777993973" duration="8662000" />
+      <workItem from="1609299634595" duration="12691000" />
+      <workItem from="1609331841874" duration="1279000" />
+      <workItem from="1609382341335" duration="1021000" />
+      <workItem from="1609384926329" duration="7222000" />
+      <workItem from="1609897640716" duration="13449000" />
+      <workItem from="1610419499973" duration="2341000" />
+      <workItem from="1610627407441" duration="4187000" />
+      <workItem from="1610951283659" duration="2044000" />
+      <workItem from="1610955823828" duration="1463000" />
+      <workItem from="1610968310365" duration="8293000" />
+      <workItem from="1611537683644" duration="1818000" />
+      <workItem from="1611558097556" duration="6260000" />
+      <workItem from="1611715894549" duration="629000" />
+      <workItem from="1612142604032" duration="7048000" />
+      <workItem from="1612401298011" duration="1791000" />
+      <workItem from="1612503426915" duration="3090000" />
+      <workItem from="1612582303610" duration="18378000" />
+      <workItem from="1614056862040" duration="595000" />
+      <workItem from="1614062048117" duration="1786000" />
+      <workItem from="1614222907372" duration="14878000" />
+      <workItem from="1614840845217" duration="22766000" />
+      <workItem from="1615539524690" duration="595000" />
+      <workItem from="1615541421688" duration="6852000" />
+      <workItem from="1615882373659" duration="21574000" />
+      <workItem from="1616465999960" duration="102000" />
+      <workItem from="1616466263359" duration="3232000" />
+      <workItem from="1616485959926" duration="13272000" />
+      <workItem from="1617003225763" duration="291000" />
+      <workItem from="1617006889647" duration="9400000" />
+      <workItem from="1617707913126" duration="1192000" />
+      <workItem from="1617771826803" duration="1202000" />
+      <workItem from="1617775265555" duration="2462000" />
+      <workItem from="1617852396880" duration="21179000" />
+      <workItem from="1618417487857" duration="16281000" />
+      <workItem from="1618817798824" duration="912000" />
+      <workItem from="1618819366963" duration="13269000" />
+      <workItem from="1618987686790" duration="315000" />
+      <workItem from="1618988577771" duration="8959000" />
+      <workItem from="1619316925847" duration="3265000" />
+      <workItem from="1619357049847" duration="9067000" />
+      <workItem from="1619506451038" duration="3632000" />
+      <workItem from="1619512979322" duration="4913000" />
+      <workItem from="1619605995190" duration="10866000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1589798637430</created>
@@ -417,7 +586,56 @@
       <option name="project" value="LOCAL" />
       <updated>1596785601362</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CONFIG 手动刷新">
+      <created>1596871393107</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596871393107</updated>
+    </task>
+    <task id="LOCAL-00013" summary="CONFIG 手动刷新">
+      <created>1597655079738</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597655079738</updated>
+    </task>
+    <task id="LOCAL-00014" summary="提交线程池">
+      <created>1598413032615</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598413032615</updated>
+    </task>
+    <task id="LOCAL-00015" summary="新增测试类">
+      <created>1598965185898</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598965185898</updated>
+    </task>
+    <task id="LOCAL-00016" summary="更新测试类">
+      <created>1599049008472</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599049008472</updated>
+    </task>
+    <task id="LOCAL-00017" summary="小修改">
+      <created>1599387415593</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599387415593</updated>
+    </task>
+    <task id="LOCAL-00018" summary="【学习】 retry springboot">
+      <created>1600424895760</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600424895760</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +656,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -453,171 +683,99 @@
     <MESSAGE value="更新gateway 模块" />
     <MESSAGE value="更新zipkin 模块" />
     <MESSAGE value="更新zipkin config模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新zipkin config模块" />
+    <MESSAGE value="CONFIG 手动刷新" />
+    <MESSAGE value="提交线程池" />
+    <MESSAGE value="新增测试类" />
+    <MESSAGE value="更新测试类" />
+    <MESSAGE value="小修改" />
+    <MESSAGE value="【学习】 retry springboot" />
+    <option name="LAST_COMMIT_MESSAGE" value="【学习】 retry springboot" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="139" key="#Docker_Image" timestamp="1596705989751">
+    <state x="615" y="106" key="#&lt;template&gt;_of_Application" timestamp="1616466072438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="139" key="#Docker_Image/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596705989751" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1596763801751">
+    <state x="615" y="106" key="#&lt;template&gt;_of_Application/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1616466072438" />
+    <state x="623" y="135" key="#JavacvStu" timestamp="1616465649881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596763801751" />
-    <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1596417252768">
+    <state x="623" y="135" key="#JavacvStu/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1616465649881" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1619514795141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="779" y="210" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596417252768" />
-    <state x="572" y="85" key="CommitChangelistDialog2" timestamp="1590471545748">
-      <screen x="0" y="23" width="1920" height="985" />
-    </state>
-    <state x="572" y="85" key="CommitChangelistDialog2/0.23.1920.985/1920.23.1920.1057@0.23.1920.985" timestamp="1590471545748" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1596712864084">
+    <state x="440" y="94" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619514795141" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618389129616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596712864084" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596615744157">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618389129616" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1618910337186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596615744157" />
-    <state x="502" y="178" key="GrepConsoleSettings" timestamp="1596628632869">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618910337186" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619505433186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="502" y="178" key="GrepConsoleSettings/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596628632869" />
-    <state width="1877" height="604" key="GridCell.Tab.0.bottom" timestamp="1596871352783">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619505433186" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1617945436164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="604" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
-    <state width="1877" height="604" key="GridCell.Tab.0.center" timestamp="1596871352783">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612887208169" />
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1617945436164" />
+    <state width="1877" height="443" key="GridCell.Tab.0.bottom" timestamp="1620698865069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="604" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
-    <state width="1877" height="604" key="GridCell.Tab.0.left" timestamp="1596871352783">
+    <state width="1877" height="443" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618936738008" />
+    <state width="1877" height="443" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620698865069" />
+    <state width="1877" height="443" key="GridCell.Tab.0.center" timestamp="1620698865069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="604" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
-    <state width="1877" height="604" key="GridCell.Tab.0.right" timestamp="1596871352783">
+    <state width="1877" height="443" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618936738008" />
+    <state width="1877" height="443" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620698865069" />
+    <state width="1877" height="443" key="GridCell.Tab.0.left" timestamp="1620698865069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="604" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
-    <state width="1877" height="604" key="GridCell.Tab.1.bottom" timestamp="1596871352783">
+    <state width="1877" height="443" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618936738008" />
+    <state width="1877" height="443" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620698865069" />
+    <state width="1877" height="443" key="GridCell.Tab.0.right" timestamp="1620698865069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="604" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
-    <state width="1877" height="604" key="GridCell.Tab.1.center" timestamp="1596871352783">
+    <state width="1877" height="443" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618936738008" />
+    <state width="1877" height="443" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620698865069" />
+    <state width="1877" height="556" key="GridCell.Tab.1.bottom" timestamp="1618887217094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="604" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
-    <state width="1877" height="604" key="GridCell.Tab.1.left" timestamp="1596871352783">
+    <state width="1877" height="556" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618887217094" />
+    <state width="1877" height="556" key="GridCell.Tab.1.center" timestamp="1618887217093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="604" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
-    <state width="1877" height="604" key="GridCell.Tab.1.right" timestamp="1596871352783">
+    <state width="1877" height="556" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618887217093" />
+    <state width="1877" height="556" key="GridCell.Tab.1.left" timestamp="1618887217093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="604" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596871352783" />
-    <state width="1877" height="556" key="GridCell.Tab.2.bottom" timestamp="1596774256787">
+    <state width="1877" height="556" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618887217093" />
+    <state width="1877" height="556" key="GridCell.Tab.1.right" timestamp="1618887217093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="556" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596774256787" />
-    <state width="1877" height="556" key="GridCell.Tab.2.center" timestamp="1596774256787">
+    <state width="1877" height="556" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1618887217093" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1620461806216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="556" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596774256787" />
-    <state width="1877" height="556" key="GridCell.Tab.2.left" timestamp="1596774256787">
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620461806216" />
+    <state x="270" y="100" width="1040" height="863" key="SettingsEditor" timestamp="1619512907300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="556" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596774256787" />
-    <state width="1877" height="556" key="GridCell.Tab.2.right" timestamp="1596774256787">
+    <state x="270" y="100" width="1040" height="863" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619512907300" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1619077931383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="556" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596774256787" />
-    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1596764286814">
+    <state x="662" y="252" width="596" height="536" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1619077931383" />
+    <state x="334" y="180" key="new project wizard" timestamp="1614254141346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="263" key="IDE.errors.dialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596764286814" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1596780955666">
+    <state x="334" y="180" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614254141346" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616132514256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596780955666" />
-    <state x="718" y="240" key="RollbackChangesDialog" timestamp="1596712439251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="718" y="240" key="RollbackChangesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596712439251" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1596786198843">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596786198843" />
-    <state x="560" y="242" key="Vcs.Push.Dialog.v2" timestamp="1596785615381">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.985/1920.23.1920.1057@0.23.1920.985" timestamp="1590471284380" />
-    <state x="560" y="242" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596785615381" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596785437636">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596785437636" />
-    <state x="662" y="223" width="662" height="594" key="find.popup" timestamp="1596680625149">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="662" y="223" width="662" height="594" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596680625149" />
-    <state x="334" y="180" key="new project wizard" timestamp="1596780529539">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="334" y="180" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596780529539" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1596632346690">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596632346690" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1616132514256" />
   </component>
 </project>

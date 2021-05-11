@@ -8,16 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hy-tools" />
-        <module name="hy-gateway" />
-        <module name="hy-eureka" />
-        <module name="hy-zipkin" />
         <module name="hy-config" />
+        <module name="hy-gateway" />
+        <module name="hy-zipkin" />
+        <module name="hy-eureka" />
+        <module name="hy-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hy-config" target="8" />
       <module name="hy-eureka" target="8" />
       <module name="hy-gateway" target="8" />
+      <module name="hy-test" target="8" />
       <module name="hy-tools" target="8" />
       <module name="hy-utils" target="8" />
       <module name="hy-zipkin" target="8" />
@@ -29,6 +31,7 @@
       <module name="hy-config" options="-parameters" />
       <module name="hy-eureka" options="-parameters" />
       <module name="hy-gateway" options="-parameters" />
+      <module name="hy-test" options="-parameters" />
       <module name="hy-tools" options="-parameters" />
       <module name="hy-zipkin" options="-parameters" />
       <module name="hy-zpikun" options="-parameters" />

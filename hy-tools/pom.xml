@@ -228,7 +228,41 @@
             <artifactId>metrics-jvm</artifactId>
             <version>3.2.6</version>
         </dependency>
-
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.4</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.4.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ansj</groupId>
+            <artifactId>ansj_seg</artifactId>
+            <version>5.1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv-platform</artifactId>
+            <version>1.5.5</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.51.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>ai.guiji</groupId>
+            <artifactId>vte-sdk</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-core</artifactId>
+            <version>5.5.9</version>
+        </dependency>
     </dependencies>
 
     <build>

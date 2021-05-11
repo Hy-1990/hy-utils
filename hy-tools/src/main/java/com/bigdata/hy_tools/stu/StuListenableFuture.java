@@ -46,6 +46,7 @@ public class StuListenableFuture {
           @Override
           public void onSuccess(@Nullable String s) {
             System.out.println("Task completed and result:" + s);
+            listeningExecutorService.shutdown();
           }
 
           @Override
@@ -54,5 +55,6 @@ public class StuListenableFuture {
           }
         },
         listeningExecutorService);
+
   }
 }
